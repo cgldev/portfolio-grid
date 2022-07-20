@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 /*Custom Properties*/
+
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
   --ff-secondary: "Source Code Pro", monospace;
@@ -134,7 +135,7 @@ h3 {
   margin-bottom: 2em;
 }
 
-/* header */
+/* Header */
 
 header {
   display: flex;
@@ -445,4 +446,18 @@ header {
 
 .social-list__item {
   margin: 0 0.5em;
+}
+
+/* Individual portfolio item styles */
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
